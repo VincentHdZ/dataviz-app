@@ -6,8 +6,20 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
   <app-root></app-root>
+  <div class="sidenav-overlay"></div>
+  <div class="drag-target"></div>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script>
+    (function ($) {
+      $(function () {
+        $(".sidenav").sidenav();
+      });
+    })(jQuery);
+  </script>
 </body>
 </html>

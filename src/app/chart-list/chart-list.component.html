@@ -1,0 +1,8 @@
+<h1>Dashboard</h1>
+<div class="section">
+  <div class="row">
+    <div *ngFor="let chart of charts" class="col s12 m4">
+      <app-chart-card [chart]="chart"></app-chart-card>
+    </div>
+  </div>
+</div>
