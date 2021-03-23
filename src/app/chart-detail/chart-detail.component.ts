@@ -1,9 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 
 import { Chart } from '../_models/chart';
 
 import { ChartService } from '../_services/charts.service';
+import { trigger, transition, state, animate, style } from '@angular/animations';
 
 declare var vega: any;
 
