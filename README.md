@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Package dependencies
 
-Run `npm i` to install all package depencencies : 
+Run `npm i` to install all package dependencies : 
 
 Check in node_modules folder:
 -materialize-css package
